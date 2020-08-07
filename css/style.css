@@ -1,0 +1,52 @@
+body{
+  background-color: #c8004c;
+}
+
+h1{
+  color: white;
+  font-size: 24px;
+}
+
+.inner-body{
+  text-align: center;
+}
+
+.central-container{
+  width: 1000px;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+}
+
+.col:nth-child(2){
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.col label{
+  margin-bottom: 10px;
+  color: linear-gradient(#cb0f57,#efafca);
+}
+
+input::placeholder{
+  text-align: center;
+}
+
+input{
+  border-radius: 5px;
+  border: 1px solid #e68fb0;
+}
+
+select{
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #e68fb0;
+}
